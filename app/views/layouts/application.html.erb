@@ -12,16 +12,26 @@
   <body>
 
     <header class="row">
-      <div class="col-3">
-        LOGO
-      </div>
       <div class="col-4">
-        Simple convertion tool
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="logo">
+            <br />
+            <br />
+            Quiz1
+            <br />
+          </div>
+        <% end %>
       </div>
-      <div class="col-5">
-        <%= link_to 'About', '#' %>
+      <div class="col-4 title text-center">
+        This is Quiz one
+      </div>
+      <div class="col-4 links">
+   
       </div>
     </header>
+
+
+    <hr />
 
     <br class="clear" />
 
